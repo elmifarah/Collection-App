@@ -9,9 +9,11 @@ echo '<pre>';
 var_dump($fame);
 echo '</pre>';
 
+$players = ['name','age','nationality','goal'];
 
-
-
+foreach($players as $player); {
+    echo "$player";
+}
 
 
 
@@ -30,11 +32,11 @@ echo '</pre>';
     <title>halloffame</title>
 </head>
 <body>
-<h1> Footballers HALL OF FAME  </h1>
+<h1> FOOTBALLERS HALL OF FAME  </h1>
 <div id="container"
 
-<div class="MyPlayer1">
-    <h4> PLAYER 1</h4>
+<div class="Players">
+    <h3> PLAYERS</h3>
     <p> <?php echo "ronaldo"; ?></p>
     <p> <?php echo "van persie"; ?></p>
     <p> <?php echo "evra"; ?></p>
