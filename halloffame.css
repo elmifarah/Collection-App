@@ -4,16 +4,19 @@
 
 body {
     margin: 0;
-    background-color: white;
-    background-image:
-    background-size: fixed;
+    background-color: #08cc3c;
+    /*background-image: url("");*/
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Raleway', sans-serif;
+
 }
 .navTop {
-    background-color: blueviolet;
-    adding: 5px;
+    background-image: url("https://image.freepik.com/free-photo/green-grass-field-background-soccer-football-sports_64749-1823.jpg");
+    padding: 5px;
     width: 100%;
     margin: 0 auto;
-    background-image: cursor.png;
     color: #2a324b;
     border-style: solid;
     border-width: 1px;
@@ -22,14 +25,15 @@ body {
     margin-bottom: 50px;
 }
 h1 {
-    margin-left: 100px;
+    margin-left: 70px;
     font-size: 70px;
 }
 
 h3 {
-    margin-left: 400px;
-    font-size: 50px;
-}
+    margin-left: 600px;
+    font-size: 80px;
+
+    }
 
 
 header {
@@ -40,18 +44,22 @@ header {
     list-style: none;
     cursor:pointer;
     padding:15px;
-    width: 400px;
-    length:200px;
+
+
+
+
 }
 
 .Players {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     margin-bottom: 100px;
     margin: 0 auto;
     width:90%;
+    margin-left: 100px;
     font-size: 35px;
+    font-family: sans-serif;
 }
 
 .player {
