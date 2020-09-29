@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: white;
+    background-image:
+    background-size: fixed;
+}
+.navTop {
+    background-color: blueviolet;
+    adding: 5px;
+    width: 100%;
+    margin: 0 auto;
+    background-image: cursor.png;
+    color: #2a324b;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #2a324b;
+    text-align: center;
+    margin-bottom: 50px;
+}
+h1 {
+    margin-left: 100px;
+    font-size: 70px;
+}
+
+h3 {
+    margin-left: 400px;
+    font-size: 50px;
+}
+
+
+header {
+    position: fixed;
+    top:0;
+    right:0;
+    display: inline-block;
+    list-style: none;
+    cursor:pointer;
+    padding:15px;
+    width: 400px;
+    length:200px;
+}
+
+.Players {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-bottom: 100px;
+    margin: 0 auto;
+    width:90%;
+    font-size: 35px;
+}
+
+.player {
+    margin-bottom: 350px;
+}
+
+.image img {
+    width: 400px;
+    length:400px;
+}

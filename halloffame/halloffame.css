@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: blueviolet;
+    background-image: url(https://img.freepik.com/free-photo/jack-spade-heart-ace-card-with-casino-chip-stack-green-poker-table_23-2147881160.jpg?size=626&ext=jpg);
+    background-size: auto;
+}
