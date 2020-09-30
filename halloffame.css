@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    background-color: #0bb016;
+    background-color: #0a8212;
     /*background-image: url("");*/
     background-size: cover;
     width: 100%;
@@ -33,6 +33,7 @@ h1 {
 h3 {
     margin-left: 600px;
     font-size: 80px;
+    color: indigo;
     }
 
 header {
@@ -45,7 +46,7 @@ header {
     padding:15px;
 }
 
-.Players {
+.players {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -64,4 +65,14 @@ header {
 .image img {
     width: 400px;
     length:400px;
+}
+
+.links {
+    position: fixed;
+    bottom:0;
+    right:0;
+    display: inline-block;
+    list-style: none;
+    cursor:pointer;
+    padding:15px;
 }

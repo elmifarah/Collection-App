@@ -16,6 +16,7 @@ $fame = $query->fetchAll();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="halloffame.css">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,600;1,700&family=Raleway:wght@100&display=swap" rel="stylesheet">
     <title>halloffame</title>
 </head>
@@ -31,7 +32,7 @@ $fame = $query->fetchAll();
 </header>
 <h3> H.O.F Nominees </h3>
 <body id="container">
-    <div class="Players">
+    <div class="players">
         <?php foreach ($fame as $player) {
             echo "<div class='image'>";
             echo "<img src='" . $player['image'] . "'/>";
@@ -41,17 +42,18 @@ $fame = $query->fetchAll();
             echo "<div> Age: {$player['age']} <br> </div>";
             echo "<div> Nationality: {$player['nationality']} <br> </div>";
             echo "<div> Career Goals: {$player['goal']} <br> </div>";
+            echo "<a href='https://www.theguardian.com/football/ng-interactive/2017/dec/19/the-100-best-footballers-in-the-world-2017-interactive'>Get a Better insight here....</a>";
             echo "</div>";
         }
 
-
-
         ?>
-    </div>
 
+    </div>
+<div class="links">
 <div class="add-player-btn-container">
     <div class="add-player-btn-box-placement">
-        <a href="../add.php" class="active">Add Player</a>
+        <a href='addplayer.php' class="active">Add Player</a>
     </div>
+</div>
 </div
 </body>
