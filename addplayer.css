@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: darkgrey;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Exo 2', sans-serif;
+    /*background-image: url("https://ak.picdn.net/shutterstock/videos/1030617416/thumb/1.jpg");*/
+}
+
+h1 {
+    margin-left: 50px;
+    font-size: 60px;
+}
+
+h3 {
+    margin-left: 400px;
+    font-size: 50px;
+    color: grey;
+}
+
+.layout {
+    width: 50%;
+    margin-left: 400px;
+}
+
+.container {
+    width: 100%;
+
+}
+
+.navTop {
+    background-image: url("https://images.assetsdelivery.com/compings_v2/prairatfhunta/prairatfhunta1906/prairatfhunta190600004.jpg");
+    background-size: contain;
+    padding: 5px;
+    width: 80%;
+    margin: 0 auto;
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #2a324b;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.btn {
+    margin-bottom: 100px;
+    margin-left: 400px;
+    top: 100px;
+
+}
