@@ -20,7 +20,6 @@ $fame = $query->fetchAll();
 <div class="navTop">
     <div class="pictures"> </div>
 </div>
-<h1>            </h1>
 <div class="title"></div>
 <h3>Which Player Deserves to enter the Hall Of Fame? :</h3>
 <div class="header">
