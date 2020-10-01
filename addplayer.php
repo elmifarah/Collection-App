@@ -6,9 +6,6 @@ $query = $db->prepare('SELECT `name`, `age`,`nationality`,`goal`,`image` FROM `P
 $query->execute();
 $fame = $query->fetchAll();
 ?>
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,9 +16,8 @@ $fame = $query->fetchAll();
 <body>
 <div class="navTop">
     <div class="pictures"> </div>
-    <h1>who is entering hof</h1>
-</div>
 
+</div>
 <div class="title"></div>
 <h3>Which Player Deserves to enter the Hall Of Fame? :</h3>
 <div class="header">
@@ -37,7 +33,6 @@ $fame = $query->fetchAll();
                     <input class="submit-btn" type="submit" name="submit"> <br>
                 </form>
                 <?php
-
                 $post = $db->prepare('INSERT INTO `Players` (`name`, `age`,`nationality`,`goal`, `image`) VALUES (:player,:age,:nationality,:goal,:image);');
                 $post->bindParam(':player',$_POST["name"]);
                 $post->bindParam(':age',$_POST["age"]);
@@ -45,7 +40,6 @@ $fame = $query->fetchAll();
                 $post->bindParam(':goal',$_POST["goal"]);
                 $post->bindParam(':image',$_POST["image"]);
                 $post->execute();
-
                 ?>
             </div>
 
