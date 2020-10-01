@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    background-color: darkgrey;
+    background-color: #2a324b;
     background-size: cover;
     width: 100%;
     background-repeat: no-repeat;
@@ -34,9 +34,9 @@ h3 {
 }
 
 .navTop {
-    background-image: url("https://images.assetsdelivery.com/compings_v2/prairatfhunta/prairatfhunta1906/prairatfhunta190600004.jpg");
+    background-image: url("https://lh3.googleusercontent.com/proxy/FPa6fy7J_KZEtfglb5thh-xEs3IXChYCEp_YIRTzQqU5kEKqUUNIG7x0i_up5KVAEdY-3oj1a7MXx5OUKZcewAecvwR-l_LrfSm8L5R823EpKpkV-wNc7_48fFKUQPhZe_Cl-Ok0");
     background-size: contain;
-    padding: 5px;
+    padding: 80px;
     width: 80%;
     margin: 0 auto;
     color: black;
@@ -51,5 +51,34 @@ h3 {
     margin-bottom: 100px;
     margin-left: 400px;
     top: 100px;
+    color: white;
 
+}
+
+.container input {
+    width: 100%;
+}
+
+.imagess {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    width:90%;
+}
+
+.ballon {
+    background-image:url("ballon.jpg");
+    background-size: cover;
+    width:700px;
+    height:400px;
+    justify-content: center;
+
+}
+
+.manu {
+    background-image:url("santi.jpg");
+    background-size: cover;
+    width:700px;
+    height:400px;
+    justify-content: center;
 }
