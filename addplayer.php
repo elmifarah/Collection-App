@@ -1,14 +1,7 @@
 <?php
-
 $db = new PDO('mysql:host=db; dbname=halloffame', 'root', 'password');
 $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
-$query = $db->prepare('SELECT `name`, `age`,`nationality`,`goal`,`image` FROM `Players`;');
-$query->execute();
-$fame = $query->fetchAll();
 ?>
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,11 +20,11 @@ $fame = $query->fetchAll();
         <div class="layout">
             <div class="container">
                 <form method="post">
-                    <fieldset><input type="text" name="name" placeholder="Name" required=""> <br> </fieldset>
-                    <fieldset><input type="number" name="age" placeholder="Age" required=""> <br> </fieldset>
-                    <fieldset><input type="text" name="nationality" placeholder="Nationality" required=""> <br></fieldset>
-                    <fieldset><input type="number" name="goal" placeholder="Goal" required=""> <br> </fieldset>
-                    <fieldset><input type="text" name="image" placeholder="image" required=""> <br> </fieldset>
+                    <fieldset><input type="text" name="name" placeholder="Name" required="">  </fieldset>
+                    <fieldset><input type="number" name="age" placeholder="Age" required="">  </fieldset>
+                    <fieldset><input type="text" name="nationality" placeholder="Nationality" required=""> </fieldset>
+                    <fieldset><input type="number" name="goal" placeholder="Goal" required="">  </fieldset>
+                    <fieldset><input type="text" name="image" placeholder="image" required=""> </fieldset>
                     <input class="submit-btn" type="submit" name="submit"> <br>
                 </form>
                 <?php
