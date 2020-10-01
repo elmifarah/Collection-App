@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #0a8212;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Exo 2', sans-serif;
+
+}
+.navTop {
+    background-image: url("https://image.freepik.com/free-photo/green-grass-field-background-soccer-football-sports_64749-1823.jpg");
+    padding: 5px;
+    width: 100%;
+    margin: 0 auto;
+    color: #2a324b;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #2a324b;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+h1 {
+    margin-left: 70px;
+    font-size: 70px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 80px;
+    color: indigo;
+}
+
+header {
+    position: fixed;
+    top:0;
+    right:0;
+    display: inline-block;
+    list-style: none;
+    cursor:pointer;
+    padding:15px;
+}
+
+.players {
+    display: grid;
+    /*grid-template-columns: 1fr 1fr 1fr 1fr;*/
+    /*grid-template-rows: 1fr 1fr;*/
+    margin-bottom: 100px;
+    margin: 0 auto;
+    width:90%;
+    margin-left: 100px;
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif
+}
+
+.player {
+    margin-bottom: 350px;
+}
+
+.image img {
+    width: 400px;
+    length:400px;
+}
+
+.links {
+    position: fixed;
+    bottom:0;
+    right:0;
+    display: inline-block;
+    list-style: none;
+    cursor:pointer;
+    padding:15px;
+}
+
+@media screen and (min-width: 1001px) {
+    .players {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .players {
+        display: grid;
+        grid-template-columns: 1fr ;
+
+    }
+}
+
+
