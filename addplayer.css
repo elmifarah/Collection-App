@@ -34,10 +34,12 @@ h3 {
 }
 
 .navTop {
-    background-image: url("");
+    background-image: url("https://images.assetsdelivery.com/compings_v2/prairatfhunta/prairatfhunta1906/prairatfhunta190600004.jpg");
     background-size: contain;
+    background-repeat: no-repeat;
     padding: 80px;
     width: 80%;
+    height: 30%;
     margin: 0 auto;
     color: black;
     border-style: solid;
