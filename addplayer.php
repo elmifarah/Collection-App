@@ -19,8 +19,9 @@ $fame = $query->fetchAll();
 <body>
 <div class="navTop">
     <div class="pictures"> </div>
+    <h1>who is entering hof</h1>
 </div>
-<h1>            </h1>
+
 <div class="title"></div>
 <h3>Which Player Deserves to enter the Hall Of Fame? :</h3>
 <div class="header">
