@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #0a8212;
+    /*background-image: url("");*/
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Exo 2', sans-serif;
+
+}
